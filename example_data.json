@@ -1,0 +1,82 @@
+{
+  "app": {
+    "stripe": {
+      "allow": false
+    }
+  },
+  "user_payments": {
+    "cus_L2de869mFn3weU": {
+      "payments": {
+        "pi_3KMYcaBMGWz1aNCF0fVDefQj": "succeeded"
+      }
+    },
+    "cus_L2vmLLRtCVcA5l": {
+      "payments": {
+        "pi_3KMpz8BMGWz1aNCF0yH5FYji": "succeeded"
+      }
+    },
+    "cus_L2vrnYZTQH9Xq7": {
+      "payments": {
+        "pi_3KMq2UBMGWz1aNCF0A2CTHr5": "succeeded"
+      }
+    },
+    "cus_L2wBmK88ombBK7": {
+      "payments": {
+        "pi_3KMqJZBMGWz1aNCF1UbFbl1o": "succeeded"
+      }
+    }
+  },
+  "user_products": {
+    "cus_L2de869mFn3weU": {
+      "products": {
+        "prod_L2drCy1fwU0kLf": {
+          "amount": 1000,
+          "description": "1 × test product (at $10.00 / month)",
+          "type": "subscription"
+        }
+      }
+    },
+    "cus_L2vmLLRtCVcA5l": {
+      "products": {
+        "prod_L2drCy1fwU0kLf": {
+          "amount": 12500,
+          "description": "test product",
+          "type": "invoiceitem"
+        }
+      }
+    },
+    "cus_L2vrnYZTQH9Xq7": {
+      "products": {
+        "prod_L2drCy1fwU0kLf": {
+          "amount": 1000,
+          "description": "1 × test product (at $10.00 / month)",
+          "type": "subscription"
+        }
+      }
+    }
+  },
+  "user_subscriptions": {
+    "cus_L2de869mFn3weU": {
+      "subscriptions": {
+        "sub_1KMYcaBMGWz1aNCFK8d9CzDh": "active"
+      }
+    }
+  },
+  "users": {
+    "badsubscription@email.test": {
+      "id": "cus_L2vrnYZTQH9Xq7"
+    },
+    "nopayments@email.test": {
+      "id": "cus_L2vl6ul9toVbAF"
+    },
+    "onetimepayment@email.test": {
+      "id": "cus_L2wBmK88ombBK7"
+    },
+    "product@email.test": {
+      "id": "cus_L2vmLLRtCVcA5l"
+    },
+    "subscription@email.test": {
+      "id": "cus_L2de869mFn3weU"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "user": "subscription@email.test",
+    "method": "GET",
+    "url": "blog"
+  },
+  {
+    "user": "nopayments@email.test",
+    "method": "GET",
+    "url": "blog"
+  },
+  {
+    "user": "onetimepayment@email.test",
+    "method": "GET",
+    "url": "blog"
+  },
+  {
+    "user": "product@email.test",
+    "method": "GET",
+    "url": "blog"
+  },
+  {
+    "user": "badsubscription@email.test",
+    "method": "GET",
+    "url": "blog"
+  }
+]
